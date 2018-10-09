@@ -1,0 +1,187 @@
+
+
+html,body{
+    height:100%;
+    font-family: 'Raleway', sans-serif !important;
+      -webkit-font-smoothing:antialiased !important;
+}
+
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;
+}
+
+.carousel-caption{
+    top: 45%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+.full-size{
+    height:600px;
+}
+
+.panel{
+    padding:50px;
+    background-color:whitesmoke;
+    width: 100%;
+    min-height: 100%;
+    min-width: 320px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.panel2{
+    padding:50px;
+    background-color:#113214;
+    width: 100%;
+    min-height: 100%;
+    min-width: 320px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.section-header{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.section-header-text{
+    width:100%;
+    padding:5px;
+    text-align: center;
+    font-size: 35px;
+    font-weight:200;
+    color:black;
+    margin:0px !important;
+}
+
+.section-header-text2{
+    width:100%;
+    padding:5px;
+    text-align: center;
+    font-size: 35px;
+    font-weight:200;
+    color:whitesmoke;
+    margin:0px !important;
+}
+
+.card {
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(17, 60, 20, 0.39);
+    border-radius: 10px;
+    padding: 18px;
+    height:100%;
+  }
+
+i{
+    color:#113214;
+}
+
+nav{
+    background-color: rgba(255,255,255, 1)!important;
+}
+
+nav .navbar-nav li a{
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: 300;
+    color: black !important;
+    text-decoration-line: underline;
+    text-decoration-color: #379740;
+}
+
+nav .navbar-nav li a:hover{
+    text-decoration: none;
+    color: #379740 !important;
+}
+
+.action-text{
+    font-size: 20px;
+    background-color: rgba(0,0,0,.5) !important;
+    color: white !important;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5;
+    border-color: #379740;
+}
+
+.action-text:hover{
+    text-decoration: none;
+}
+
+.slide1-bg {
+    background-image: url("../images/green-phone.jpeg"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.slide2-bg {
+    background-image: url("../images/notebook.jpeg"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.slide3-bg {
+    background-image: url("../images/handshake1.jpeg"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.slide4-bg {
+    background-image: url("../images/server.jpeg"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+.connected {
+    background-image: url("../images/white-bg.jpeg"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.time{
+    background-image: url("../images/notebook.jpeg"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.commitment{
+    background-image: url("../images/handshake1.jpeg"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.engineering{
+    background-image: url("../images/server.jpeg"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.nav-item{
+    height:70px !important;
+    padding: 20px !important;
+    font-size: 20px !important;
+}
+
+
+
+.carousel-header{
+    padding: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bbbbbb;
+    border-radius: 20px;
+    background-color: rgba(0,0,0, .5);
+}
