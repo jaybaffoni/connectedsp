@@ -69,12 +69,19 @@ html,body{
 
 .card {
     text-align: center;
-    background-color: whitesmoke;
+    background-color: rgba(255,255,255, 1) !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(17, 60, 20, 0.39);
     border-radius: 10px;
     padding: 18px;
     height:100%;
   }
+
+.about{
+    background-image: url("../images/rain.jpeg"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
 
 i{
     color:#113214;
